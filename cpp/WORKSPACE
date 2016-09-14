@@ -1,0 +1,11 @@
+new_local_repository(
+    name = "opencv",
+    path = "/usr/local/opt/opencv3",
+    build_file = "opencv.BUILD",
+)
+
+new_local_repository(
+  name = "google_benchmark",
+  path = "/usr/local/opt/google-benchmark",
+  build_file = "google-benchmark.BUILD",
+  )
